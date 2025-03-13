@@ -1,0 +1,13 @@
+{
+  "name": "mern-book-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "build": "npm install --prefix mern-server && npm install --prefix mern-client && npm run build --prefix mern-client",
+    "start": "npm run start --prefix mern-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
