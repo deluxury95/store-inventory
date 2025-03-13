@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "build": "npm install --prefix mern-server && npm install --prefix mern-client && npm run build --prefix mern-client",
+    "build": "npm install --prefix mern-server && npm install --prefix mern-client && npm run build --prefix mern-client",
     "start": "npm run start --prefix mern-server"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vite-plugin-inspect": "^11.0.0"
+  }
 }
